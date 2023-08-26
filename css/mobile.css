@@ -1,0 +1,193 @@
+body{
+    overflow-x: hidden;
+}
+
+#bar{
+    display: flex;
+    position: sticky;
+    height: 26vh;
+    flex-direction: column;
+    padding: 0vh 28vw;
+   
+}
+#bar ul li a{
+   
+    font-size: 3vw;
+    height: 33vh;
+    
+    /* padding:0px -6 ;
+     */
+}
+#bar h2{
+   
+    
+   
+    font-size: 3vw;
+   
+    padding:0px 1px ;
+    padding-top: 28px;
+    margin: 0px 3px;
+}
+#bar p{
+    
+    
+    font-size: 3vw;
+    padding: 1px 1px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -32px 0px;
+
+}
+#home{
+    height: 310px;
+    padding: 11px 28px;
+  
+  }
+  #home::before{
+    height: 380px;
+    
+  
+  }
+  #home p{
+    font-size: 4vw;
+}
+#home h1{
+    font-size: 15vw;
+
+}
+
+#para .secondary{
+    font-size:5vw;
+    
+}
+#para p{
+    font-size:3vw;
+   
+    
+   
+}
+ #para{
+    /* height: 100%; */
+    margin:-290px -79px;
+} 
+ #para .imgk img{
+   /* padding-left: 744px; */
+   /* object-fit: */
+   position: relative;
+   max-width: 35%;
+   /* border-right-width: 30px; */
+   
+    max-height: 60vh;
+
+    margin: -13px -43px;
+    overflow-x: hidden; 
+    /* display: block; */
+    padding: 262px 300px; 
+    
+}
+.btr{
+    font-size: 3vw;
+    margin-top: 20px;
+    
+    padding: 10px 20px;
+}
+
+.h-primary{
+    font-size: 5vw;
+     width: 100%; 
+    padding:40px 90px;
+    margin-top: -720px; 
+}
+#services{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#services .box{
+    
+    
+    border: 10px solid black;
+    
+    width: 55%;
+    height: 270px;
+}
+.rtn{
+     
+    margin: 19px 38px;
+    display: block;
+    padding: 5px 20px;
+    width: 60%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.ctn{
+     
+    margin: 4px 38px;
+    display: block;
+    padding: 5px 20px;
+    width: 60%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.box h2{
+   font-size: 20px;
+}
+.ptn{
+    margin: 58px 8px;
+     font-size: 4vw;
+     padding: 5px 20px;
+     width: 90%;
+     background-color: black;
+     color: white;
+     cursor: pointer;
+}
+.form .infor {
+    padding: 55px 12px;
+    margin: -477px 4px;
+    font-size: 1.5rem;
+    
+}
+.logo img{
+    padding: -9px 16px;
+    margin: -4px 17px;
+    width: 25%;
+   
+}
+#ends p{
+    
+    padding: 467px 15px;
+    margin: -417px 4px;
+    font-size: 3vw;
+
+}
+#cont {
+    
+    display:flex;
+    padding: 64px 45px;
+    margin: -875px 150px;
+    /* text-align: center; */
+    border-radius: 2px solid black;
+    
+    
+}
+#cont input,
+#cont textarea{
+    margin: 12px;
+    padding: 0.5rem;
+    width: 90%;
+    font-size: 1.1rem;  
+    font-size: 1.1rem; 
+    background: rgb(87, 187, 191);
+    
+    border: 2px solid black;
+    
+
+}
